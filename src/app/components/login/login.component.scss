@@ -1,0 +1,96 @@
+.image-stack__item--top-container {
+    width: 100%;
+    float: left;
+    margin-right: -100%;
+    position: relative;
+    z-index: 1;
+}
+
+.image-stack__item--top {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin: 0 auto;
+    z-index: 1;
+}
+
+.image-stack__item--bottom {
+    float: right;
+}
+
+.title-text {
+    float: left;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-right: -100%;
+    position: relative;
+    z-index: 2;
+    background-color: transparent;
+    border: none;
+    width: max-content;
+    height: max-content;
+    padding: 0;
+    font-size: 50px;
+    color: var(--title-color);
+    font-weight: lighter;
+    font-family: Didot, serif;
+}
+
+p {
+    float: left;
+    top: 150px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-right: -100%;
+    position: relative;
+    z-index: 2;
+    background-color: transparent;
+    border: none;
+    width: 90%;
+    height: max-content;
+    padding: 0;
+    font-size: 35px;
+    font-family: Didot, serif;
+}
+
+.username-container {
+    float: left;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: 320px;
+    margin-right: -100%;
+    position: relative;
+    z-index: 2;
+    background-color: transparent;
+    border: none;
+    width: max-content;
+    height: max-content;
+    padding: 0;
+}
+
+.password-container {
+    float: left;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: 390px;
+    margin-right: -100%;
+    position: relative;
+    z-index: 2;
+    background-color: transparent;
+    border: none;
+    width: max-content;
+    height: max-content;
+    padding: 0;
+}
+
+.input-label {
+    padding-left: 22px;
+    font-size: 35px;
+    font-family: Didot, serif;
+}
+
+input {
+    width: 60%;
+    margin-left: 20px;
+}

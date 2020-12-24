@@ -1,0 +1,163 @@
+
+<div class="container" *ngIf="init">
+    <span class="city-name">Reon Main City</span>
+    <div class="resource-grid">
+        <span class="resource-label"><img draggable="false" src="assets\haypi-images\resource_wood1.png" class="resource-img" alt="image">&nbsp;449300</span> 
+        <span class="resource-label"><img draggable="false" src="assets\haypi-images\resource_stone1.png" class="resource-img" alt="image">&nbsp;449300</span>
+        <span class="resource-label"><img draggable="false" src="assets\haypi-images\resource_iron1.png" class="resource-img" alt="image">&nbsp;449300</span> 
+        <span class="resource-label"><img draggable="false" src="assets\haypi-images\resource_crop1.png" class="resource-img" alt="image">&nbsp;449300</span> 
+        <span class="resource-label"><img draggable="false" src="assets\haypi-images\resource_man1.png" class="resource-img" alt="image">&nbsp;6390</span> 
+        <span class="resource-label"><img draggable="false" src="assets\haypi-images\resource_money1.png" class="resource-img" alt="image">&nbsp;80000</span> 
+        <span></span>
+        <span class="resource-label"><img draggable="false" src="assets\haypi-images\resource_coin1.png" class="resource-img" alt="image">&nbsp;200</span> 
+
+    </div>
+    <img draggable="false" src="assets\haypi-images\menuup_5.png" alt="image" class="menu-up">
+    <img draggable="false" src="assets\haypi-images\menuup_1_2x.png" alt="image" class="menu-up-2">
+    <div class="city-panel">
+        <img draggable="false" src="assets\haypi-images\main_back_3x.png" alt="image" class="city-image">
+        <img draggable="false" [src]="animationSources['MILL']" alt="image" class="mill-image">
+        <img draggable="false" [src]="animationSources['FLAG']" alt="image" class="flag-image">
+        <img draggable="false" [src]="animationSources['EAGLE']" alt="image" class="eagle">
+        <img draggable="false" [src]="animationSources['EAGLE_SHADOW']" alt="image" class="eagle-shadow">
+
+        <div class="barracks-container">
+            <button class="barracks-container-button container-btn"></button>
+            <div class="barracks-container-label">
+                <span class="container-label-text barracks-container-label-text">Barracks</span>
+                <img draggable="false" src="assets\haypi-images\main_button_bg_2x.png" alt="image">
+            </div>
+        </div>
+        <div class="main-building-container">
+            <button class="main-building-container-button container-btn"></button>
+            <div class="main-building-container-label">
+                <span class="container-label-text main-building-container-label-text">Main Building</span>
+                <img draggable="false" src="assets\haypi-images\main_button_bg_2x.png" alt="image">
+            </div>
+        </div>
+        <div class="battlefield-building-container">
+            <button class="battlefield-container-button container-btn"></button>
+            <div class="battlefield-container-label">
+                <span class="container-label-text battlefield-container-label-text">Battlefield</span>
+                <img draggable="false" src="assets\haypi-images\main_button_bg_2x.png" alt="image">
+            </div>
+        </div>
+        <div class="warehouse-building-container">
+            <button class="warehouse-container-button container-btn"></button>
+            <div class="warehouse-container-label">
+                <span class="container-label-text warehouse-container-label-text">Warehouse</span>
+                <img draggable="false" src="assets\haypi-images\main_button_bg_2x.png" alt="image">
+            </div>
+        </div>
+        <div class="cranny-building-container">
+            <button class="cranny-container-button container-btn"></button>
+            <div class="cranny-container-label">
+                <span class="container-label-text cranny-container-label-text">Cranny</span>
+                <img draggable="false" src="assets\haypi-images\main_button_bg_2x.png" alt="image">
+            </div>
+        </div>
+        <div class="technology-building-container">
+            <button class="technology-container-button container-btn"></button>
+            <div class="technology-container-label">
+                <span class="container-label-text technology-container-label-text">Technology</span>
+                <img draggable="false" src="assets\haypi-images\main_button_bg_2x.png" alt="image">
+            </div>
+        </div>
+        <div class="stone-mine-container">
+            <button class="stone-mine-container-button container-btn"></button>
+            <div class="stone-mine-container-label">
+                <span class="container-label-text stone-mine-container-label-text">Stone Mine</span>
+                <img draggable="false" src="assets\haypi-images\main_button_bg_2x.png" alt="image">
+            </div>
+        </div>
+        <div class="cropland-container">
+            <button class="cropland-container-button container-btn"></button>
+            <div class="cropland-container-label">
+                <span class="container-label-text cropland-container-label-text">Cropland</span>
+                <img draggable="false" src="assets\haypi-images\main_button_bg_2x.png" alt="image">
+            </div>
+        </div>
+        <div class="iron-mine-container">
+            <button class="iron-mine-container-button container-btn"></button>
+            <div class="iron-mine-container-label">
+                <span class="container-label-text iron-mine-container-label-text">Iron Mine</span>
+                <img draggable="false" src="assets\haypi-images\main_button_bg_2x.png" alt="image">
+            </div>
+        </div>
+        <div class="lumbermill-container">
+            <button class="lumbermill-container-button container-btn"></button>
+            <div class="lumbermill-container-label">
+                <span class="container-label-text lumbermill-container-label-text">Lumber Mill</span>
+                <img draggable="false" src="assets\haypi-images\main_button_bg_2x.png" alt="image">
+            </div>
+        </div>
+        <div class="marketplace-container">
+            <button class="marketplace-container-button container-btn"></button>
+            <div class="marketplace-container-label">
+                <span class="container-label-text marketplace-container-label-text">Marketplace</span>
+                <img draggable="false" src="assets\haypi-images\main_button_bg_2x.png" alt="image">
+            </div>
+        </div>
+        <div class="wall-container">
+            <button class="wall-container-button container-btn"></button>
+            <div class="wall-container-label">
+                <span class="container-label-text wall-container-label-text">City Wall</span>
+                <img draggable="false" src="assets\haypi-images\main_button_bg_2x.png" alt="image">
+            </div>
+        </div>
+    </div>
+    <div class="menu-bottom">
+        <div class="btn-grid">
+            <div>
+                <img draggable="false" src="assets\haypi-images\btn_chat_2x.png" class="btn-grid-img" alt="image"><br>
+                <span class="btn-label">CHAT</span>
+            </div>
+            <div>
+                <img draggable="false" src="assets\haypi-images\btn_alliance_2x.png" class="btn-grid-img" alt="image">
+                <span class="btn-label">ALLIANCE</span>
+            </div>
+            <div>
+                <img draggable="false" src="assets\haypi-images\btn_task_2x.png" class="btn-grid-img" alt="image">
+                <span class="btn-label">TASKS</span>
+            </div>
+            <div>
+                <img draggable="false" src="assets\haypi-images\btn_help_2x.png" class="btn-grid-img" alt="image">
+                <span class="btn-label">HELP</span>
+            </div>
+            <div>
+                <img draggable="false" src="assets\haypi-images\btn_rank_2x.png" class="btn-grid-img" alt="image">
+                <span class="btn-label">RANK</span>
+            </div>
+            <div>
+                <img draggable="false" src="assets\haypi-images\btn_shop_2x.png" class="btn-grid-img" alt="image">
+                <span class="btn-label">SHOP</span>
+            </div>
+            <div>
+                <img draggable="false" src="assets\haypi-images\btn_general_2x.png" class="btn-grid-img" alt="image">
+                <span class="btn-label">GENERAL</span>
+            </div>
+            <div>
+                <img draggable="false" src="assets\haypi-images\btn_map_2x.png" class="btn-grid-img" alt="image">
+                <span class="btn-label">MAP</span>
+            </div>
+            <div>
+                <img draggable="false" src="assets\haypi-images\btn_cities_2x.png" class="btn-grid-img" alt="image">
+                <span class="btn-label">CITIES</span>
+            </div>
+            <div>
+                <img draggable="false" src="assets\haypi-images\btn_action_2x.png" class="btn-grid-img" alt="image">
+                <span class="btn-label">ACTIONS</span>
+            </div>
+            <div>
+                <img draggable="false" src="assets\haypi-images\btn_treasure_2x.png" class="btn-grid-img" alt="image">
+                <span class="btn-label">TREASURE</span>
+            </div>
+            <div>
+                <img draggable="false" src="assets\haypi-images\btn_letter_2x.png" class="btn-grid-img" alt="image">
+                <span class="btn-label">LETTER</span>
+            </div>
+        </div>
+        <img draggable="false" src="assets\haypi-images\menuup_4_2x.png" alt="image" class="menu-up-4">
+        <img draggable="false" src="assets\haypi-images\menuup_6_android_2x.png" alt="image" class="menu-up-6">
+    </div>
+</div>
